@@ -1,0 +1,37 @@
+# Core Dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-multipart==0.0.6
+
+# Vector Database
+chromadb==0.4.22
+
+# Document Processing
+pypdf==3.0.1
+pdfplumber==0.10.3
+python-docx==1.1.0
+markdown==3.5.2
+
+# LangChain & Google AI
+langchain==0.1.6
+langchain-google-genai==0.0.6
+langchain-google-vertexai==0.0.6
+google-generativeai==0.3.2
+google-cloud-aiplatform==1.40.0
+
+# Text Processing & Embeddings
+sentence-transformers==2.3.1
+rank-bm25==0.2.2
+tiktoken==0.5.2
+
+# Utilities
+python-dotenv==1.0.0
+aiofiles==23.2.1
+httpx==0.26.0
+
+# Development
+pytest==7.4.4
+pytest-asyncio==0.23.3
+black==24.1.1
